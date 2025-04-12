@@ -6,11 +6,14 @@ Este documento apresenta os requisitos funcionais e não-funcionais da API de en
 
 ## Requisitos Funcionais (RF)
 
-| Código | Descrição                                                                 |
-|--------|---------------------------------------------------------------------------|
-| RF01   | A API deve retornar uma lista de endereços via requisição HTTP GET.       |
-| RF02   | A API deve retornar erro 404 quando não existirem endereços disponíveis.  |
-| RF03   | A API deve retornar um endereço específico quando fornecido um ID válido. |
+| Código | Descrição                                                                      |
+|--------|------------------------------------------------------------------------------  |
+| RF01   | A API deve retornar uma lista de endereços via requisição HTTP GET.            |
+| RF02   | A API deve retornar erro 404 quando não existirem endereços disponíveis.       |
+| RF03   | A API deve retornar um endereço específico quando fornecido um ID válido.      |
+| RF04   | A API deve retornar um endereço específico quando fornecido um CEP válido.     |
+| RF05   | A API deve retornar uma lista de endereços quando fornecido uma cidade válida. |
+| RF06   | A API deve retornar uma lista de endereços quando fornecido uma UF válida.     |
 
 ---
 
