@@ -27,10 +27,10 @@ class EnderecoModel {
     return enderecos.filter((endereco) => endereco.cidade.toLowerCase() == cidade.toLowerCase());
   }
 
-  /*static getByUf(uf) {
+  static getByUf(uf) {
     return enderecos.filter((endereco) => endereco.uf.toLowerCase() == uf.toLowerCase());
   }
-
+/*
   static getByCep(cep) {
     return enderecos.filter((endereco) => endereco.cep.toLowerCase() == cep.toLowerCase());
   }*/
