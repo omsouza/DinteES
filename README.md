@@ -9,12 +9,8 @@ Projeto desenvolvido como parte da Atividade AT-3 da disciplina **Engenharia de 
 - [Sobre o projeto](#sobre-o-projeto)
 - [Funcionalidades](#funcionalidades)
 - [Tecnologias utilizadas](#tecnologias-utilizadas)
-- [Como rodar o projeto](#como-rodar-o-projeto)
-- [Testes](#testes)
-- [Requisitos](#requisitos)
-- [Organização SCM](#organização-scm)
 - [Autores](#autores)
-- [Versões](#versoes)
+- [Versões](#Versoes)
 
 ---
 
@@ -49,18 +45,6 @@ Este projeto utiliza a arquitetura MVC, dados estáticos em JSON e práticas de 
 
 ---
 
-## Como rodar o projeto
-
-### Pré-requisitos
-
-- Ter o [Node.js](https://nodejs.org/) instalado na máquina
-
-### Instalação
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/at3-api-enderecos.git
-
 ### Autores
 
 1. Alex Lemes Guedes
@@ -68,3 +52,10 @@ Este projeto utiliza a arquitetura MVC, dados estáticos em JSON e práticas de 
 3. Danilo Giacobo
 4. Guilherme Villaca
 5. Odair Moreira de Souza
+   
+---
+
+### Versões
+V1.0 - Apresenta a primeira proposta de exercício, retornando todos os endereços a partir de um comando do tipo GET
+
+V2.0 - Foram incluídos requisitos de pesquisa de endereço a partir de um ID válido, a partir do CEP, Cidade e UF. 
