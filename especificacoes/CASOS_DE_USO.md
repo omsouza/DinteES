@@ -8,7 +8,8 @@ Este documento descreve os principais casos de uso da API de Endereços desenvol
 
 ### UC01 – Consultar todos os endereços
 
-- **Ator principal:** Usuário (cliente da API)
+- **Ator principal:** Usuário  
+- **Identificador:** user1
 - **Resumo:** Retorna a lista completa de endereços registrados no sistema.
 - **Pré-condição:** A base de dados JSON deve conter pelo menos um endereço.
 - **Pós-condição:** A lista é retornada com sucesso ou uma mensagem 404 é exibida.
@@ -21,7 +22,8 @@ Este documento descreve os principais casos de uso da API de Endereços desenvol
 
 ### UC02 – Consultar endereço por ID
 
-- **Ator principal:** Usuário
+- **Ator principal:** Usuário  
+- **Identificador:** user1
 - **Resumo:** Permite recuperar um único endereço por meio de um identificador numérico.
 - **Pré-condição:** O ID informado deve existir na base de dados.
 - **Pós-condição:** O endereço correspondente é retornado.
@@ -34,7 +36,8 @@ Este documento descreve os principais casos de uso da API de Endereços desenvol
 
 ### UC03 – Consultar endereço por CEP
 
-- **Ator principal:** Usuário
+- **Ator principal:** Usuário  
+- **Identificador:** user1
 - **Resumo:** Permite recuperar um endereço específico com base em seu CEP.
 - **Pré-condição:** O CEP deve estar formatado corretamente e existir na base.
 - **Pós-condição:** O endereço correspondente é retornado.
@@ -47,7 +50,8 @@ Este documento descreve os principais casos de uso da API de Endereços desenvol
 
 ### UC04 – Consultar endereços por cidade
 
-- **Ator principal:** Usuário
+- **Ator principal:** Usuário  
+- **Identificador:** user1
 - **Resumo:** Retorna uma lista de endereços da cidade especificada.
 - **Pré-condição:** O nome da cidade deve ser válido.
 - **Pós-condição:** A lista filtrada de endereços é exibida.
@@ -60,7 +64,8 @@ Este documento descreve os principais casos de uso da API de Endereços desenvol
 
 ### UC05 – Consultar endereços por UF
 
-- **Ator principal:** Usuário
+- **Ator principal:** Usuário  
+- **Identificador:** user1
 - **Resumo:** Retorna todos os endereços pertencentes a um estado brasileiro (UF).
 - **Pré-condição:** A sigla da UF deve ser válida.
 - **Pós-condição:** A lista de endereços filtrados por UF é exibida.
@@ -73,16 +78,17 @@ Este documento descreve os principais casos de uso da API de Endereços desenvol
 
 ## Observação sobre o Diagrama de Casos de Uso
 
-- Ator principal: **Usuário**
-- Sistema: **API de Endereços**
-- Casos de uso: **Consultar todos**, **Consultar por ID**, **Consultar por CEP**, **Consultar por cidade**, **Consultar por UF**
+- Ator principal: Usuário  
+- Identificador: user1  
+- Sistema: API de Endereços  
+- Casos de uso: Consultar todos, Consultar por ID, Consultar por CEP, Consultar por cidade, Consultar por UF
 
-> Sugestão: representar estes casos em um diagrama UML com o ator "Usuário" à esquerda e os 5 casos de uso organizados em elipses à direita.
+> Sugestão: representar estes casos em um diagrama UML com o ator "Usuário (user1)" à esquerda e os 5 casos de uso organizados em elipses à direita.
 
 ---
 
 ## Versão do Documento
 
-- **Versão:** 1.0  
-- **Última atualização:** 11 de abril de 2025  
-- **Autor:** Christiano Julio Pilger de Brito
+- Versão: 1.1  
+- Última atualização: 11 de abril de 2025  
+- Autor: Christiano Julio Pilger de Brito
