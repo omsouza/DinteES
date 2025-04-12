@@ -1,0 +1,24 @@
+config:
+  target: "http://localhost:3000"  # Altere se necessário
+  phases:
+    - duration: 60      # Duração do teste em segundos
+      arrivalRate: 10   # Requisições por segundo
+  environments:
+    local:
+      target: "http://localhost:3000"
+    production:
+      target: ""
+
+scenarios:
+  - name: "Teste carga lista de endereços"
+    flow:
+      - get:
+          url: "/enderecos"
+          capture:
+            - json: "$[0].id"
+              as: "primeiroId"
+
+  - name: "Teste busca por ID"
+    flow:
+      - get:
+          url: "/enderecos/{{ $processEnvironment.primeiroId || 1 }}"
