@@ -1,3 +1,5 @@
+(obs: disclaimer do googledocs, que gerou o markdown)
+
 # **MINISTÉRIO DA EDUCAÇÃO** 
 
 # **UNIVERSIDADE FEDERAL DO PARANÁ** 
