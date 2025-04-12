@@ -35,7 +35,24 @@ describe('Testes da API de Endereços', () => {
   
 
   it('GET /enderecos/cidade/:cidade - deve retornar 404 para cidade inexistente', async () => {
-    const response = await request(app).get('/enderecos/cascavel');
+    const response = await request(app).get('/enderecos/cidade/cascavel');
+    expect(response.status).toBe(404);
+    expect(response.body).toHaveProperty('message');
+  });
+
+  //teste uf
+  it('GET /enderecos/uf/:uf - deve retornar uma lista de endereços da uf', async () => {
+    const response = await request(app).get('/enderecos/uf/ba');
+    expect(response.status).toBe(200);
+    expect(Array.isArray(response.body)).toBe(true);
+    expect(response.body.length).toBeGreaterThan(0);
+    expect(response.body[0]).toHaveProperty('logradouro');
+    expect(response.body[0]).toHaveProperty('uf', 'BA');
+  });
+  
+
+  it('GET /enderecos/uf/:uf - deve retornar 404 para uf inexistente', async () => {
+    const response = await request(app).get('/enderecos/uf/PR');
     expect(response.status).toBe(404);
     expect(response.body).toHaveProperty('message');
   });
