@@ -30,10 +30,10 @@ class EnderecoModel {
   static getByUf(uf) {
     return enderecos.filter((endereco) => endereco.uf.toLowerCase() == uf.toLowerCase());
   }
-/*
+
   static getByCep(cep) {
     return enderecos.filter((endereco) => endereco.cep.toLowerCase() == cep.toLowerCase());
-  }*/
+  }
 
 }
 

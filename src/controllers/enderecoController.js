@@ -35,7 +35,7 @@ class EnderecoController {
       res.status(404).json({ message: 'Endereco not found' });
     }
   }
-  /*
+  
   static getByCep(req, res) {
     const { cep } = req.params;
     const enderecos = EnderecoModel.getByCep(cep);
@@ -44,8 +44,7 @@ class EnderecoController {
     } else {
       res.status(404).json({ message: 'Endereco not found' });
     }
-  }*/
-  //cidade, uf e cep
+  }
 
 }
 
