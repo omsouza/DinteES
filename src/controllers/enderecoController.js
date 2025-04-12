@@ -25,7 +25,7 @@ class EnderecoController {
       res.status(404).json({ message: 'Endereco not found' });
     }
   }
-/*
+
   static getByUf(req, res) {
     const { uf } = req.params;
     const enderecos = EnderecoModel.getByUf(uf);
@@ -35,7 +35,7 @@ class EnderecoController {
       res.status(404).json({ message: 'Endereco not found' });
     }
   }
-
+  /*
   static getByCep(req, res) {
     const { cep } = req.params;
     const enderecos = EnderecoModel.getByCep(cep);
