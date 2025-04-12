@@ -14,7 +14,8 @@
   },
   "dependencies": {
     "artillery": "^2.0.22",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "node": "^23.11.0"
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
