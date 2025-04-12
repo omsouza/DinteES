@@ -23,7 +23,7 @@ Este documento descreve os principais casos de uso da API REST desenvolvida na a
 ### UC02 – Recuperar logradouro por ID
 
 - **Ator principal:** Usuário  
-- **Identificador:** user1
+- **Identificador:** user2
 - **Resumo:** Permite obter um único logradouro com base em seu identificador único (ID).
 - **Pré-condição:** O ID informado deve estar presente no arquivo de dados.
 - **Pós-condição:** O logradouro correspondente ao ID é retornado.
@@ -37,7 +37,7 @@ Este documento descreve os principais casos de uso da API REST desenvolvida na a
 ### UC03 – Consultar logradouro por CEP
 
 - **Ator principal:** Usuário  
-- **Identificador:** user1
+- **Identificador:** user3
 - **Resumo:** Permite recuperar um logradouro a partir de um CEP válido.
 - **Pré-condição:** O CEP deve estar corretamente formatado e existir na base de dados.
 - **Pós-condição:** O logradouro correspondente ao CEP é retornado.
@@ -51,7 +51,7 @@ Este documento descreve os principais casos de uso da API REST desenvolvida na a
 ### UC04 – Consultar logradouros por cidade
 
 - **Ator principal:** Usuário  
-- **Identificador:** user1
+- **Identificador:** user4
 - **Resumo:** Retorna todos os logradouros associados a uma cidade específica.
 - **Pré-condição:** O nome da cidade deve ser válido e presente no arquivo de dados.
 - **Pós-condição:** Uma lista de logradouros filtrados por cidade é retornada.
@@ -65,7 +65,7 @@ Este documento descreve os principais casos de uso da API REST desenvolvida na a
 ### UC05 – Consultar logradouros por UF (Estado)
 
 - **Ator principal:** Usuário  
-- **Identificador:** user1
+- **Identificador:** user5
 - **Resumo:** Retorna todos os logradouros pertencentes a uma Unidade Federativa (UF).
 - **Pré-condição:** A sigla da UF deve ser válida e estar presente na base de dados.
 - **Pós-condição:** Uma lista de logradouros filtrados por UF é retornada.
@@ -79,7 +79,7 @@ Este documento descreve os principais casos de uso da API REST desenvolvida na a
 ## Observação sobre o Diagrama de Casos de Uso
 
 - **Ator principal:** Usuário  
-- **Identificador:** user1  
+- **Identificador:** user1 6
 - **Sistema:** API de Logradouros  
 - **Casos de uso representados:**  
   - UC01: Recuperar todos os logradouros  
@@ -95,5 +95,5 @@ Este documento descreve os principais casos de uso da API REST desenvolvida na a
 ## Versão do Documento
 
 - **Versão:** 2.0  
-- **Última atualização:** 11 de abril de 2025  
+- **Última atualização:** 12 de abril de 2025  
 - **Autor:** Christiano Julio Pilger de Brito
