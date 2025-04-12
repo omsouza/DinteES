@@ -79,14 +79,30 @@
 
       at Function.log [as getById] (src/models/enderecoModel.js:18:15)
 
+  console.log
+    salvador
+
+      at Function.log [as getByCidade] (src/models/enderecoModel.js:26:13)
+
+  console.log
+    cascavel
+
+      at Function.log [as getByCidade] (src/models/enderecoModel.js:26:13)
+
  PASS  test/endereco.test.js
   Testes da API de Endereços
-    ✓ GET /enderecos - deve retornar todos os endereços (121 ms)
-    ✓ GET /enderecos/:id - deve retornar um endereço específico (61 ms)
-    ✓ GET /enderecos/:id - deve retornar 404 para ID inexistente (31 ms)
+    ✓ GET /enderecos - deve retornar todos os endereços (104 ms)
+    ✓ GET /enderecos/:id - deve retornar um endereço específico (41 ms)
+    ✓ GET /enderecos/:id - deve retornar 404 para ID inexistente (30 ms)
+    ✓ GET /enderecos/cidade/:cidade - deve retornar uma lista de endereços da cidade (23 ms)
+    ✓ GET /enderecos/cidade/:cidade - deve retornar 404 para cidade inexistente (14 ms)
+    ✓ GET /enderecos/uf/:uf - deve retornar uma lista de endereços da uf (11 ms)
+    ✓ GET /enderecos/uf/:uf - deve retornar 404 para uf inexistente (18 ms)
+    ✓ GET /enderecos/cep/:cep - deve retornar uma lista de endereços do cep (12 ms)
+    ✓ GET /enderecos/cep/:cep - deve retornar 404 para cep inexistente (25 ms)
 
 Test Suites: 1 passed, 1 total
-Tests:       3 passed, 3 total
+Tests:       9 passed, 9 total
 Snapshots:   0 total
-Time:        1.316 s
+Time:        0.85 s, estimated 1 s
 Ran all test suites.

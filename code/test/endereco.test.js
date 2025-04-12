@@ -57,5 +57,22 @@ describe('Testes da API de Endereços', () => {
     expect(response.body).toHaveProperty('message');
   });
 
+  //teste cep
+  it('GET /enderecos/cep/:cep - deve retornar uma lista de endereços do cep', async () => {
+    const response = await request(app).get('/enderecos/cep/30123-456');
+    expect(response.status).toBe(200);
+    expect(Array.isArray(response.body)).toBe(true);
+    expect(response.body.length).toBeGreaterThan(0);
+    expect(response.body[0]).toHaveProperty('logradouro');
+    expect(response.body[0]).toHaveProperty('cep', '30123-456');
+  });
+  
+
+  it('GET /enderecos/cep/:cep - deve retornar 404 para cep inexistente', async () => {
+    const response = await request(app).get('/enderecos/cep/85807-594');
+    expect(response.status).toBe(404);
+    expect(response.body).toHaveProperty('message');
+  });
+
 
 });
