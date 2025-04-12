@@ -12,7 +12,7 @@ class EnderecoController {
     if (endereco) {
       res.json(endereco);
     } else {
-      res.status(404).json({ message: 'Endereco not found' });
+      res.status(404).json({ message: 'Endereço por id não encontrado' });
     }
   }
 
@@ -22,7 +22,7 @@ class EnderecoController {
     if (enderecos.length > 0) {
       res.json(enderecos);
     } else {
-      res.status(404).json({ message: 'Endereco not found' });
+      res.status(404).json({ message: 'Endereço por cidade não encontrado' });
     }
   }
 
@@ -32,7 +32,7 @@ class EnderecoController {
     if (enderecos.length > 0) {
       res.json(enderecos);
     } else {
-      res.status(404).json({ message: 'Endereco not found' });
+      res.status(404).json({ message: 'Endereço por UF não encontrado' });
     }
   }
   
@@ -42,7 +42,7 @@ class EnderecoController {
     if (enderecos.length > 0) {
       res.json(enderecos);
     } else {
-      res.status(404).json({ message: 'Endereco not found' });
+      res.status(404).json({ message: 'Endereço por CEP não encontrado' });
     }
   }
 
