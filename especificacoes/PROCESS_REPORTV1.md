@@ -20,8 +20,6 @@
 
 # **Atividade: AT3 \- Gerenciamento de Configuração de Software** 
 
-# **![Forma][image2]**
-
 # **AT-3 \[11/abr\]: Gerenciamento de Configuração de Software, apresentação 12/abr**
 
 Considere os slides de "Gestão de Configuração de Software – AT-3​", disponíveis a seguir para realizar as atividades propostas. 
