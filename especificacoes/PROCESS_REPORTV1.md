@@ -1,5 +1,3 @@
-# **![Diagrama, Desenho técnicoO conteúdo gerado por IA pode estar incorreto.][image1]**
-
 # **MINISTÉRIO DA EDUCAÇÃO** 
 
 # **UNIVERSIDADE FEDERAL DO PARANÁ** 
