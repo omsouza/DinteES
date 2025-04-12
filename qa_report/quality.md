@@ -1,0 +1,1 @@
+Garantia de qualidade
