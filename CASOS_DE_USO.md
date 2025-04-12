@@ -1,10 +1,10 @@
-# 🎯 Casos de Uso – API de Endereços
+# Casos de Uso – API de Endereços
 
 Este documento descreve os principais casos de uso da API de Endereços desenvolvida na atividade AT-3 da disciplina INFO7013 (Engenharia de Software – DINTER UFPR/UNIOESTE).
 
 ---
 
-## 🧾 Lista de Casos de Uso
+## Lista de Casos de Uso
 
 ### UC01 – Consultar todos os endereços
 
@@ -71,7 +71,7 @@ Este documento descreve os principais casos de uso da API de Endereços desenvol
 
 ---
 
-## 📌 Observação sobre o Diagrama de Casos de Uso
+## Observação sobre o Diagrama de Casos de Uso
 
 - Ator principal: **Usuário**
 - Sistema: **API de Endereços**
@@ -81,7 +81,7 @@ Este documento descreve os principais casos de uso da API de Endereços desenvol
 
 ---
 
-## 📁 Versão do Documento
+## Versão do Documento
 
 - **Versão:** 1.0  
 - **Última atualização:** 11 de abril de 2025  
