@@ -30,6 +30,6 @@ Este documento apresenta os requisitos funcionais e não-funcionais da API de lo
 
 ## Versão do Documento
 
-- **Versão:** 1.2  
+- **Versão:** 2.0  
 - **Última atualização:** 11 de abril de 2025  
 - **Autor:** Christiano Julio Pilger de Brito
