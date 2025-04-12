@@ -94,6 +94,6 @@ Este documento descreve os principais casos de uso da API REST desenvolvida na a
 
 ## Versão do Documento
 
-- **Versão:** 1.3  
+- **Versão:** 2.0  
 - **Última atualização:** 11 de abril de 2025  
 - **Autor:** Christiano Julio Pilger de Brito
