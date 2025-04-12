@@ -22,8 +22,12 @@ class EnderecoModel {
 
   //cidade, uf e cep
 
- /*
-  static getByUf(uf) {
+  static getByCidade(cidade) {
+    console.log(cidade);
+    return enderecos.filter((endereco) => endereco.cidade.toLowerCase() == cidade.toLowerCase());
+  }
+
+  /*static getByUf(uf) {
     return enderecos.filter((endereco) => endereco.uf.toLowerCase() == uf.toLowerCase());
   }
 

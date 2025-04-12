@@ -16,7 +16,7 @@ class EnderecoController {
     }
   }
 
-  /*static getByCidade(req, res) {
+  static getByCidade(req, res) {
     const { cidade } = req.params;
     const enderecos = EnderecoModel.getByCidade(cidade);
     if (enderecos.length > 0) {
@@ -25,7 +25,7 @@ class EnderecoController {
       res.status(404).json({ message: 'Endereco not found' });
     }
   }
-
+/*
   static getByUf(req, res) {
     const { uf } = req.params;
     const enderecos = EnderecoModel.getByUf(uf);
