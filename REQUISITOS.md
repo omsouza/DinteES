@@ -7,24 +7,24 @@ Este documento apresenta os requisitos funcionais e não-funcionais da API de en
 ## Requisitos Funcionais (RF)
 
 | Código | Descrição                                                                      |
-|--------|------------------------------------------------------------------------------  |
+| ------ | ------------------------------------------------------------------------------ |
 | RF01   | A API deve retornar uma lista de endereços via requisição HTTP GET.            |
 | RF02   | A API deve retornar erro 404 quando não existirem endereços disponíveis.       |
 | RF03   | A API deve retornar um endereço específico quando fornecido um ID válido.      |
 | RF04   | A API deve retornar um endereço específico quando fornecido um CEP válido.     |
-| RF05   | A API deve retornar uma lista de endereços quando fornecido uma cidade válida. |
-| RF06   | A API deve retornar uma lista de endereços quando fornecido uma UF válida.     |
+| RF05   | A API deve retornar uma lista de endereços quando fornecida uma cidade válida. |
+| RF06   | A API deve retornar uma lista de endereços quando fornecida uma UF válida.     |
 
 ---
 
 ## Requisitos Não-Funcionais (RNF)
 
-| Código | Descrição                                                                                         |
-|--------|---------------------------------------------------------------------------------------------------|
-| RNF01  | A API deve seguir o padrão REST.                                                                  |
-| RNF02  | A API deve utilizar o protocolo HTTP para comunicação.                                             |
-| RNF03  | Os dados da API devem ser armazenados em um arquivo estático (enderecos.json).                    |
-| RNF04  | A API deve responder a 95% das requisições em menos de 500ms em condições normais de operação.    |
+| Código | Descrição                                                                                                 |
+| ------ | --------------------------------------------------------------------------------------------------------- |
+| RNF01  | A API deve seguir o padrão REST.                                                                          |
+| RNF02  | A API deve utilizar o protocolo HTTP para comunicação.                                                    |
+| RNF03  | Os dados da API devem ser armazenados em um arquivo estático (`enderecos.json`).                          |
+| RNF04  | A API deve responder a pelo menos 95% das requisições em menos de 500ms em condições normais de operação. |
 
 ---
 
@@ -32,4 +32,4 @@ Este documento apresenta os requisitos funcionais e não-funcionais da API de en
 
 - **Versão:** 1.1
 - **Última atualização:** 11 de abril de 2025
-- **Autores:** Christiano Julio Pilger de Brito
+- **Autor:** Christiano Julio Pilger de Brito
